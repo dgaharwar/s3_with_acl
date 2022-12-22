@@ -1,7 +1,7 @@
 resource "aws_s3_bucket" "bucket" {
-    bucket = "matt-test-10122011"
+    bucket = "matt-test-10122012"
       tags = {
-        Name        = "My bucket RENAME"
+        Name        = "My bucket DG"
         Environment = "Dev"
       }
 }
